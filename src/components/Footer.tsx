@@ -29,7 +29,7 @@ export default function Footer() {
           <div>
             <h4 className="text-[10px] uppercase tracking-[0.3em] text-lunar-ivory mb-8">Collections</h4>
             <ul className="space-y-4">
-              {['Living', 'Dining', 'Bedroom', 'Outdoor', 'Bespoke'].map((item) => (
+              {['Living', 'Dining', 'Bedroom', 'Outdoor', 'Lighting', 'Bespoke'].map((item) => (
                 <li key={item}>
                   <Link to="/collections" className="text-sm text-lunar-silver/50 hover:text-lunar-ivory transition-colors flex items-center group">
                     {item}

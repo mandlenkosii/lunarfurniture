@@ -92,6 +92,46 @@ export const PRODUCTS: Product[] = [
       "https://images.unsplash.com/photo-1622397333309-3056849bc70b?auto=format&fit=crop&q=80&w=2000",
       "https://images.unsplash.com/photo-1590059305856-78809499878d?auto=format&fit=crop&q=80&w=2000"
     ]
+  },
+  {
+    id: "nova-pendant",
+    name: "Nova Pendant Light",
+    category: "Lighting",
+    price: "From R 45,000",
+    description: "A celestial orb of light. The Nova Pendant features a hand-blown frosted glass sphere suspended by a minimalist brass frame.",
+    materials: ["Frosted Glass", "Solid Brass", "Integrated LED"],
+    dimensions: "45cm Diameter x 60cm H",
+    images: [
+      "https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=crop&q=80&w=2000",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=2000"
+    ],
+    featured: true
+  },
+  {
+    id: "stellar-floor-lamp",
+    name: "Stellar Floor Lamp",
+    category: "Lighting",
+    price: "From R 62,000",
+    description: "The Stellar Floor Lamp casts a warm, atmospheric glow. Its slender silhouette and heavy marble base create a perfect balance of form and function.",
+    materials: ["Blackened Steel", "Carrara Marble", "Linen Shade"],
+    dimensions: "40cm W x 165cm H",
+    images: [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&q=80&w=2000",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=2000"
+    ]
+  },
+  {
+    id: "nebula-table-lamp",
+    name: "Nebula Table Lamp",
+    category: "Lighting",
+    price: "From R 28,000",
+    description: "A compact masterpiece of light. The Nebula Table Lamp features a sculptural ceramic base and a soft, diffused light source.",
+    materials: ["Hand-Thrown Ceramic", "Opal Glass", "Braided Silk Cord"],
+    dimensions: "25cm W x 35cm H",
+    images: [
+      "https://images.unsplash.com/photo-1534073828943-f801091bb18c?auto=format&fit=crop&q=80&w=2000",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&q=80&w=2000"
+    ]
   }
 ];
 
@@ -100,5 +140,6 @@ export const COLLECTIONS = [
   { name: "Dining", image: "https://images.unsplash.com/photo-1617806118233-18e1db207fa6?auto=format&fit=crop&q=80&w=2000" },
   { name: "Bedroom", image: "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80&w=2000" },
   { name: "Outdoor", image: "https://images.unsplash.com/photo-1511871893393-82e9c16b81e3?auto=format&fit=crop&q=80&w=2000" },
+  { name: "Lighting", image: "https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=crop&q=80&w=2000" },
   { name: "Bespoke", image: "https://images.unsplash.com/photo-1616486341351-79b52752ad4f?auto=format&fit=crop&q=80&w=2000" }
 ];
